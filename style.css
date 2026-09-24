@@ -1,0 +1,386 @@
+body {
+    background-image: url("images/parchment_preview.png");
+    margin: 0;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  color: maroon;
+}
+
+h2 {
+
+}
+
+img {
+
+}
+
+.parchment-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 28px;
+  background-color: #d8c39a;
+  border-bottom: 3px solid #5c4326;
+}
+
+.parchment-nav .brand {
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #4a2f14;
+}
+
+.parchment-nav u {
+  color: #4a2f14;
+}
+
+.parchment-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.parchment-nav a {
+  text-decoration: none;
+  color: #3a2a16;
+  font-size: 1.1rem;
+}
+
+.parchment-nav a:hover {
+  color: #7a1f12;
+}
+
+main {
+  padding: 40px;
+}
+
+.card {
+
+}
+
+.row {
+
+}
+
+.box {
+
+}
+
+a {
+  cursor: pointer;
+}
+
+#fact_1, #fact_2, #fact_3, #fact_4 {
+  padding-left: 250px;
+  color: maroon;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+}
+#fact_1 { padding-top: 20px; }
+
+.fact, .fact2, .fact3, .fact4 {
+  text-align: center;
+}
+
+.brand {
+  font-variant: small-caps;
+}
+
+.el-wrap {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 28px 24px;
+}
+
+.el-parchment {
+  background-color: #f2e4c4;
+  color: #2c1c0c;
+  border: 1px solid #b79a4a;
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(0,0,0,.3);
+  padding: 34px 40px;
+  overflow: hidden;
+}
+
+.el-title {
+  font-size: 2.4rem;
+  color: maroon;
+  margin: 4px 0 16px;
+  text-align: center;
+}
+.el-title-overtext {
+  padding-right: 308px;
+}
+@media (max-width: 640px) {
+  .el-title-overtext { padding-right: 0; }
+}
+
+.el-parchment p {
+  line-height: 1.75;
+  font-size: 1.08rem;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.el-parchment h2 {
+  font-weight: normal;
+  line-height: 1.75;
+  font-size: 1.25rem;
+  color: #2c1c0c;
+  font-family: Georgia, 'Times New Roman', serif;
+  margin: 0 0 1em;
+}
+
+.el-parchment h2.fact,
+.el-parchment h2.fact2,
+.el-parchment h2.fact3,
+.el-parchment h2.fact4 {
+  text-align: left;
+  font-size: 1.15rem;
+  margin-bottom: 0.35em;
+}
+
+.el-imgrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  justify-content: center;
+  margin: 0 0 28px;
+}
+.el-imgrow figure {
+  max-width: 340px;
+  margin: 0;
+  text-align: center;
+}
+.el-imgrow img {
+  width: 100%;
+  max-height: 320px;
+  border: 4px solid #fff;
+  border-radius: 14px;
+}
+.el-imgrow figcaption {
+  margin-top: 10px;
+  font-size: .9rem;
+  font-style: italic;
+  color: #8a6a22;
+}
+
+.el-figure {
+  float: right;
+  width: 280px;
+  max-width: 40%;
+  margin: 6px 0 20px 28px;
+  text-align: center;
+}
+.el-figure img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border: 4px solid #fff;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,.35);
+}
+.el-figure figcaption {
+  margin-top: 10px;
+  font-size: .9rem;
+  font-style: italic;
+  color: #8a6a22;
+}
+@media (max-width: 640px) {
+  .el-figure {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 20px 0;
+  }
+}
+
+.el-timeline {
+  margin: 10px 0 0;
+}
+.el-tl-item {
+  border-left: 4px solid #c8a24a;
+  padding-left: 16px;
+  margin-bottom: 16px;
+}
+.el-tl-year {
+  font-weight: bold;
+  color: maroon;
+  font-size: 1.1rem;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.el-tl-body {
+  margin: 2px 0 0;
+  font-size: 1.02rem;
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.5;
+}
+
+.el-ribbon {
+  display: flex;
+  gap: 16px;
+  margin: 0 0 30px;
+}
+.el-ribbon-seg {
+  flex: 1;
+  background-color: #fff;
+  border: 2px solid #c8a24a;
+  border-radius: 12px;
+  padding: 18px 16px;
+  text-align: center;
+}
+.el-ribbon-lbl {
+  color: #8a6a22;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.el-ribbon-big {
+  font-size: 2.1rem;
+  margin: 2px 0;
+  color: maroon;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.el-ribbon-sub {
+  font-size: 1rem;
+  color: #5c4326;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.el-hero {
+  min-height: 95vh;
+  margin: 0;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #f7ecce;
+  background-image: url("images/battle.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.el-hero .kicker {
+  font-variant: small-caps;
+  letter-spacing: 5px;
+  color: #e8d6ac;
+  margin: 12px 0 4px;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.el-hero h1 {
+  color: #c8a24a;
+  font-size: 3rem;
+  margin: 6px 0;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.el-hero .sub {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  max-width: 560px;
+  margin: 10px auto 6px;
+  color: #f2e4c2;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.el-hero .dates {
+  color: #c8a24a;
+  letter-spacing: 1px;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.el-hero .links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  max-width: 560px;
+  margin: 28px auto 0;
+}
+.el-hero .links a {
+  text-decoration: none;
+  color: #3a2a16;
+  background-color: #f2e4c4;
+  border: 1px solid #b79a4a;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.el-hero .links a:hover {
+  background-color: maroon;
+  color: #f7ecce;
+}
+
+.el-overview {
+  display: flex;
+  gap: 36px;
+  align-items: flex-start;
+}
+.el-overview > div {
+  flex: 1;
+}
+.el-overview h1.el-title {
+  text-align: left;
+  margin-top: 0;
+}
+.el-side {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.el-side .el-ribbon { margin: 0; }
+.el-side-img {
+  width: 100%;
+  height: auto;
+  border: 4px solid #fff;
+  border-radius: 12px;
+  background-color: #cfeaf2;
+}
+.el-side-map {
+  max-width: 260px;
+  display: block;
+  margin: 0 auto;
+}
+.el-side figure {
+  margin: 0;
+  text-align: center;
+}
+.el-side figcaption {
+  margin-top: 6px;
+  font-size: .85rem;
+  font-style: italic;
+  color: #8a6a22;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+@media (max-width: 760px) {
+  .el-overview {
+    flex-direction: column;
+  }
+  .el-overview h1.el-title {
+    text-align: center;
+  }
+}
+
+.el-next .links a {
+  text-decoration: none;
+  color:  #f7ecce;
+  background-color: maroon;
+  border: 1px solid #b79a4a;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-family: Georgia, 'Times New Roman', serif;
+  text-align: center;
+  align-items: center;
+  
+}
+.el-next .links a:hover {
+  background-color: #f2e4c4;
+  color: #3a2a16;
+}

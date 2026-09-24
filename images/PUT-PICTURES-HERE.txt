@@ -1,0 +1,14 @@
+Put your pictures in this folder.
+
+Save a picture of Brian Boru (or a map, a battle, a castle) into this
+folder. Give it a short simple name with no spaces, like:
+
+    brian.jpg
+    clontarf.jpg
+    map.jpg
+
+Then in index.html use it like this:
+
+    <img src="images/brian.jpg" alt="A picture of Brian Boru">
+
+Make sure the name in the code matches the file name EXACTLY.

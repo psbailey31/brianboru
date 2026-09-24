@@ -1,0 +1,181 @@
+/* ===================================================== */
+/* This file makes your page look nice: colours, fonts,  */
+/* spacing. Look at example/example.css to see how it's   */
+/* done, then write your own here.                        */
+/* ===================================================== */
+
+
+/* Make the WHOLE PAGE use a nice font and a background colour. */
+/* This is called "body". */
+body {
+    background-image: url("images/parchment_preview.png");
+    margin: 0;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* Make the BIG TITLE a colour you like. */
+h1 {
+text-align: center;
+color: maroon;
+}
+
+/* Make the SMALL HEADINGS a colour. */
+h2 {
+
+}
+
+
+/* Stop your PICTURES from being too big. */
+img {
+
+}
+
+
+/* ---- Nav bar ---- */
+.parchment-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 28px;
+
+  /* a warmer, slightly darker parchment band so the bar reads as a strip */
+  background: rgba(120, 92, 52, 0.22);
+  border-bottom: 3px double #5c4326;   /* double line = old-book feel */
+  box-shadow: 0 2px 6px rgba(60, 42, 22, 0.25);
+}
+
+.parchment-nav .brand {
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #4a2f14;
+  text-shadow: 1px 1px 0 rgba(255, 245, 220, 0.4);  /* faint emboss */
+}
+
+.parchment-nav ul {
+  list-style: none;      /* no bullet points */
+  display: flex;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.parchment-nav a {
+  text-decoration: none;
+  color: #3a2a16;
+  font-size: 1.1rem;
+  padding-bottom: 3px;
+  border-bottom: 2px solid transparent;  /* reserve space for hover underline */
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.parchment-nav a:hover {
+  color: #7a1f12;                 /* deep red, like wax seal / rubricated ink */
+  border-bottom-color: #7a1f12;
+}
+
+main {
+  padding: 40px;
+}
+
+.selected {
+  border-bottom-color: #7a1f12;
+}
+
+/* ===================================================== */
+/* BOXES. A <div> in your HTML is an invisible box.       */
+/* Give it a name like class="card", then style it here.  */
+/* A class is styled with a DOT in front, like .card      */
+/* See example/example.css for ".card", ".row" and ".box" */
+/* ===================================================== */
+
+/* One box (a background, a border, some space inside). */
+.card {
+
+}
+
+
+/* A ROW that puts boxes SIDE BY SIDE. */
+/* The trick is: display: flex; */
+.row {
+
+}
+
+
+/* Each box that sits inside the row. */
+.box {
+
+}
+
+a {
+cursor: pointer;
+}
+
+#fact_1 {
+ padding-top: 20px;
+padding-left: 250px;
+color: maroon;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+#fact_2 {
+ padding-left: 250px;
+ color: maroon;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#fact_3 {
+padding-left: 250px;
+color: maroon;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#fact_4 {
+padding-left: 250px;
+color: maroon;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#helmet {
+position: fixed; 
+  top: 50; 
+  right: 50;
+  transform: rotate(45deg);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menuitem {
+    display:block;
+    float:left;
+    margin-left:25px;
+    position:relative;
+    text-align:center;
+}
+
+.brand {
+  font-variant: small-caps;
+}
+
+.fact {
+text-align: center;
+}
+
+.fact2 {
+text-align: center;
+}
+
+.fact3 {
+text-align: center;
+}
+
+.fact4 {
+text-align: center;
+}
